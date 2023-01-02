@@ -196,8 +196,6 @@ function modeSwitch() {
   let emailSub = document.getElementsByClassName("input-wrapper")[0];
   let topicCard = document.getElementsByClassName("topic-card")[0];
 
-  console.log(topicCard);
-
   isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
 
   root.classList.toggle("cover_light");
