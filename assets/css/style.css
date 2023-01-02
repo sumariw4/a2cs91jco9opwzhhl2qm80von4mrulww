@@ -221,6 +221,10 @@ body.nav-active {
   gap: 16px;
 }
 
+.container-grid-none {
+  padding-inline: 18px;
+}
+
 .container {
   padding-inline: 16px;
 }
@@ -541,7 +545,7 @@ body.nav-active {
 }
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 160px);
+  padding-block-start: calc(var(--section-padding) + 60px);
 }
 
 .hero .container {
@@ -632,7 +636,7 @@ body.nav-active {
 
 .hero .shape-2 {
   bottom: -30px;
-  left: 550px;
+  left: 10px;
 }
 
 .hero .wrapper {
@@ -1191,6 +1195,10 @@ body.nav-active {
   transform: translateY(-10px);
 }
 
+.topics {
+  padding-top: 150px;
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1283,10 +1291,6 @@ body.nav-active {
   .hero-bg-2 {
     bottom: -200px;
     left: -20px;
-  }
-
-  .shape-2 {
-    left: 60px;
   }
 
   /**
